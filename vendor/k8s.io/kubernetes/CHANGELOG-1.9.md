@@ -1220,7 +1220,7 @@ filename | sha256 hash
 * Fix code-generators to produce correct code when GroupName, PackageName and/or GoName differ. ([#55614](https://github.com/kubernetes/kubernetes/pull/55614), [@sttts](https://github.com/sttts))
 * Fixes bad conversion in host port chain name generating func which leads to some unreachable host ports. ([#55153](https://github.com/kubernetes/kubernetes/pull/55153), [@chenchun](https://github.com/chenchun))
 * Relative paths in the Kubelet's local config files (--init-config-dir) will be resolved relative to the location of the containing files. ([#55648](https://github.com/kubernetes/kubernetes/pull/55648), [@mtaufen](https://github.com/mtaufen))
-* kubeadm: Fix a bug on some OSes where the kubelet tried to mount a volume path that is non-existent and on a read-only filesystem  ([#55320](https://github.com/kubernetes/kubernetes/pull/55320), [@andrewgithub.com/logicmonitor/terraform-provider-helm](https://github.com/andrewgithub.com/logicmonitor/terraform-provider-helm))
+* kubeadm: Fix a bug on some OSes where the kubelet tried to mount a volume path that is non-existent and on a read-only filesystem  ([#55320](https://github.com/kubernetes/kubernetes/pull/55320), [@andrewgithub.com/logicmonitor/terraform-provider-helm](https://github.com/logicmonitor/terraform-provider-helm))
 * add hostIP and protocol to the original hostport predicates procedure in scheduler. ([#52421](https://github.com/kubernetes/kubernetes/pull/52421), [@WIZARD-CXY](https://github.com/WIZARD-CXY))
 
 
@@ -1734,7 +1734,7 @@ filename | sha256 hash
 * A policy with 0 rules should return an error ([#51782](https://github.com/kubernetes/kubernetes/pull/51782), [@charrywanganthony](https://github.com/charrywanganthony))
 * Log a warning when --audit-policy-file not passed to apiserver ([#52071](https://github.com/kubernetes/kubernetes/pull/52071), [@CaoShuFeng](https://github.com/CaoShuFeng))
 * Fixes an issue with upgrade requests made via pod/service/node proxy subresources sending a non-absolute HTTP request-uri to backends ([#52065](https://github.com/kubernetes/kubernetes/pull/52065), [@liggitt](https://github.com/liggitt))
-* kubeadm: add `kubeadm phase addons` command ([#51171](https://github.com/kubernetes/kubernetes/pull/51171), [@andrewgithub.com/logicmonitor/terraform-provider-helm](https://github.com/andrewgithub.com/logicmonitor/terraform-provider-helm))
+* kubeadm: add `kubeadm phase addons` command ([#51171](https://github.com/kubernetes/kubernetes/pull/51171), [@andrewgithub.com/logicmonitor/terraform-provider-helm](https://github.com/logicmonitor/terraform-provider-helm))
 * Fix for Nodes in vSphere lacking an InternalIP. ([#48760](https://github.com/kubernetes/kubernetes/pull/48760)) ([#49202](https://github.com/kubernetes/kubernetes/pull/49202), [@cbonte](https://github.com/cbonte))
 * v2 of the autoscaling API group, including improvements to the HorizontalPodAutoscaler, has moved from alpha1 to beta1. ([#50708](https://github.com/kubernetes/kubernetes/pull/50708), [@DirectXMan12](https://github.com/DirectXMan12))
 * Fixed a bug where some alpha features were enabled by default. ([#51839](https://github.com/kubernetes/kubernetes/pull/51839), [@jennybuckley](https://github.com/jennybuckley))

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/provider"
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
+	"github.com/logicmonitor/terraform-provider-helm/pkg/provider"
 )
 
 func main() {

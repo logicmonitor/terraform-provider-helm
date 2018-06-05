@@ -3,9 +3,9 @@ package provider
 import (
 	"log"
 
-	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/meta"
-	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/resources"
 	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/logicmonitor/terraform-provider-helm/pkg/meta"
+	"github.com/logicmonitor/terraform-provider-helm/pkg/resources"
 )
 
 // Provider implements the Terraform ResourceProvider API

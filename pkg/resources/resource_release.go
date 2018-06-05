@@ -4,10 +4,9 @@ import (
 	"log"
 	"strings"
 
-	"
-	/pkg/helm/repo"
-	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/meta"
 	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/logicmonitor/terraform-provider-helm/pkg/helm/repo"
+	"github.com/logicmonitor/terraform-provider-helm/pkg/meta"
 	yaml "gopkg.in/yaml.v2"
 
 	"k8s.io/helm/pkg/chartutil"

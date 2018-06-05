@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/andrewrynhard/terraform-provider-helm/pkg/meta"
+	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/meta"
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/helper/schema"
 	corev1 "k8s.io/api/core/v1"

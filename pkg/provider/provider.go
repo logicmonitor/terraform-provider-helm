@@ -3,8 +3,8 @@ package provider
 import (
 	"log"
 
-	"github.com/andrewrynhard/terraform-provider-helm/pkg/meta"
-	"github.com/andrewrynhard/terraform-provider-helm/pkg/resources"
+	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/meta"
+	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/resources"
 	"github.com/hashicorp/terraform/helper/schema"
 )
 

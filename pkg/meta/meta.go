@@ -1,9 +1,9 @@
 package meta
 
 import (
-	"github.com/andrewrynhard/terraform-provider-helm/pkg/helm"
-	"github.com/andrewrynhard/terraform-provider-helm/pkg/helm/repo"
-	"github.com/andrewrynhard/terraform-provider-helm/pkg/kubernetes"
+	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/helm"
+	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/helm/repo"
+	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/kubernetes"
 	"github.com/hashicorp/terraform/helper/schema"
 )
 

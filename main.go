@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/andrewrynhard/terraform-provider-helm/pkg/provider"
+	"github.com/andrewgithub.com/logicmonitor/terraform-provider-helm/terraform-provider-helm/pkg/provider"
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
 )
